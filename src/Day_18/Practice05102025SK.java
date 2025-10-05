@@ -171,7 +171,7 @@ public class Practice05102025SK {
 
         while(low<=high){
             int mid = low + (high-low)/2;
-            if(nums[low]<=mid){
+            if(nums[low]<=nums[mid]){
                 minimumValue = Math.min(minimumValue,nums[low]);
                 low = mid+1;
 
